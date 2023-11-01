@@ -1,0 +1,1970 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+}
+header{
+    height: 60px;
+    width: 100%;
+
+    background-color: #0F1111;
+    display: flex;
+    color: #BFC9CA;
+
+    font-weight: 800;
+    
+
+    align-items: center;
+} 
+
+header img{
+    width: 100px;
+}
+header .head-loc{
+    display: flex;
+    height: fit-content;
+    
+}
+.head-loc span{
+    font-size: 30px;
+}
+.loc-name p{
+    height: fit-content;
+    width: 150px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+.loc-name h5{
+    width: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.flag{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flag img{
+    height: 15px;
+    width: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.sign_in p{
+    font-family:'Raleway', sans-serif; 
+    height: fit-content;
+    width: 150px;
+    margin: 0;
+    font-weight: lighter;
+}
+.sign_in h5{
+    font-family:'Raleway', sans-serif; 
+    font-size: 15px;
+}
+.title{
+    height: 50px;
+    width: 100%;
+    background-color: #2c2f2f;
+    text-align: center;
+}
+
+.title a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    padding: 0px 40px;
+  
+}
+.title a:hover{
+    color: azure;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+.home{
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    
+}
+.television{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(209, 214, 216);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.television h4{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+   
+}
+.television a{
+    position: relative;
+    top: 22px;
+    right: 100px;
+}
+.television1{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(209, 214, 216);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.television1 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+   
+}
+.television1 a{
+    position: relative;
+    top: 22px;
+    right: 100px;
+}
+.television2{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(209, 214, 216);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.television2 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+   
+}
+.television2 a{
+    position: relative;
+    top: 22px;
+    right: 100px;
+}
+.television3{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(209, 214, 216);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.television3 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+   
+}
+.television3 a{
+    position: relative;
+    top: 180px;
+    right: 185px;
+}
+    
+.television4{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(209, 214, 216);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.television4 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+   
+}
+.television4 a{
+    position: relative;
+    top: 22px;
+    right: 100px;
+}
+.television5{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(209, 214, 216);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.television5 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+   
+}
+.television5 a{
+    position: relative;
+    top: 187px;
+    right:190px;
+}
+.television6{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(209, 214, 216);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+.television6 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+   
+}
+.television6 a{
+    position: relative;
+    top: 22px;
+    right: 100px;
+}
+.television7{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(209, 214, 216);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.television7 h4{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+   
+}
+.television7 a{
+    position: relative;
+    top: 22px;
+    right: 100px;
+}
+.product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 300px;
+    
+}
+.carousel-control-next-icon{
+    position: relative;
+    bottom: 100px;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    bottom: 100px;
+}
+.t1
+{
+   height:100px;
+   width: 120px;
+   border: 2px black ;
+   position: relative;
+   top: 0px;
+   bottom: 10px;
+   text-align: center;
+    
+}
+.t1 img{
+    height: 100px;
+    width: 120px;
+}
+.t1 h1{
+    font-size: 18px;
+    font-family: fantasy;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+.t2
+{
+   height:100px;
+   width: 120px;
+   position: relative;
+   top: 2px;
+   text-align: center;
+  
+    
+}
+.t2 img{
+    height: 100px;
+    width: 120px;
+}
+.t2 h1{
+    font-size: 18px;
+    font-family: fantasy;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+.t3
+{
+   height:100px;
+   width: 120px;
+   position: relative;
+   top: 2px;
+   text-align: center;
+  
+    
+}
+.t3 img{
+    height: 100px;
+    width: 120px;
+}
+.t3 h1{
+    font-size: 18px;
+    font-family: fantasy;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+.t4
+{
+   height:100px;
+   width: 120px;
+   position: relative;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   text-align: center;
+   
+  
+    
+}
+.t4 img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -80px;
+    right: 0px;
+    
+}
+.t5
+{
+   height:100px;
+   width: 120px;
+   position: relative;
+   top: 2px;
+   text-align: center;
+  
+    
+}
+.t5 img{
+    height: 100px;
+    width: 120px;
+}
+.t5 h1{
+    font-size: 18px;
+    font-family: fantasy;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+.t6
+{
+   height:100px;
+   width: 120px;
+   position: relative;
+   top: 2px;
+   text-align: center;
+  
+    
+}
+.t6 img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -80px;
+    right: 0px;
+    
+}
+.t6 h1{
+    font-size: 18px;
+    font-family: fantasy;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+.t7
+{
+   height:100px;
+   width: 120px;
+   position: relative;
+   top: 10px;
+   text-align: center;
+  
+    
+}
+.t7 img{
+    height: 100px;
+    width: 120px;
+}
+.t7 h1{
+    font-size: 14px;
+    font-family: fantasy;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+.t8
+{
+   height:100px;
+   width: 120px;
+   position: relative;
+   top: 10px;
+   text-align: center;
+  
+    
+}
+.t8 img{
+    height: 100px;
+    width: 120px;
+}
+.t8 h1{
+    font-size: 12px;
+    font-family: fantasy;
+    position: relative;
+    top: 0px;
+    color: black;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: -270px;
+    left: 20px;   
+}
+.container1 h3{
+    font-family: fantasy;
+    color: black;
+
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    right: 29px;
+}
+.box1{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box1 img{
+    height: 180px;
+    width:180px;
+}
+.box1 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box2{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box2 img{
+    height: 180px;
+    width:180px;
+}
+.box2 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box3{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box3 img{
+    height: 180px;
+    width:180px;
+}
+.box3 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box4{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box4 img{
+    height: 180px;
+    width:180px;
+}
+.box4 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box5{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box5 img{
+    height: 180px;
+    width:180px;
+}
+.box5 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box6{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box6 img{
+    height: 180px;
+    width:180px;
+}
+.box6 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+
+.container3{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: -180px;
+    left: 50px;
+     
+}
+.container4 h3{
+    font-family: fantasy;
+    color: black;
+
+}
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    right: 29px;
+}
+
+.box6{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box6 img{
+    height: 180px;
+    width:180px;
+}
+.box6 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box7{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box7 img{
+    height: 180px;
+    width:180px;
+}
+.box7 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+
+.box8{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box8 img{
+    height: 180px;
+    width:180px;
+}
+.box8 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box9{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box9 img{
+    height: 180px;
+    width:180px;
+}
+.box9 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box10{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box10 img{
+    height: 180px;
+    width:180px;
+}
+.box10 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+
+.box11{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box11 img{
+    height: 180px;
+    width:180px;
+}
+.box11 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.box12{
+    height: 200px;
+    width: 190px;
+    background-color: transparent;
+}
+.box12 img{
+    height: 180px;
+    width:180px;
+}
+.box12 h5{
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+
+.clothes{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: -120px;
+    left: 50px;   
+}
+.clothes1 h3{
+    font-family: fantasy;
+    color: black;
+}
+.clothes2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    right: 29px;
+    
+}
+.men{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 15px;
+   
+
+}
+.womens{
+    height: 300px;
+    width: 300px;
+   
+
+}
+.kids{
+    height: 300px;
+    width: 300px;
+   
+}
+.men img{
+    height: 280px;
+    width: 120px;
+    position: relative;
+ 
+    left: 80px;
+}
+.men a{
+    position: relative;
+    top: 170px;
+    left: -150px;
+    
+}
+.men h5{
+    text-align: center;
+    font-family: fantasy;
+    position: relative;
+    top: 2px;
+    left: -18px;
+}
+.womens img{
+    height: 280px;
+    width: 170px;
+    position: relative;
+ 
+    left: 80px;
+}
+.womens a{
+    position: relative;
+    top: 180px;
+    left: -180px;
+    
+}
+.womens h5{
+    text-align: center;
+    font-family: fantasy;
+    position: relative;
+    top: 2px;
+}
+.kids img{
+    height: 280px;
+    width: 120px;
+    position: relative;
+    left: 80px;
+}
+.kids a{
+    position: relative;
+    top: 170px;
+    left: -130px;
+    
+}
+.kids h5{
+    text-align: center;
+    font-family: fantasy;
+    position: relative;
+    top: 2px;
+}
+.homeappliance{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 60px;
+     
+}
+.homeappliances1 h3{
+    font-family: fantasy;
+    color: black;
+    
+}
+.homeapplliances2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    right: 29px;
+    
+}
+.homeapplication1{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.homeapplication2{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.homeapplication3{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.homeapplication4{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.homeapplication5{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.homeapplication6{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.homeapplication1 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.homeapplication2 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.homeapplication3 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.homeapplication4 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.homeapplication5 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.homeapplication6 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.homeapplication1 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.homeapplication1 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.homeapplication2 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.homeapplication2 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.homeapplication3 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.homeapplication3 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.homeapplication4 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.homeapplication4 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.homeapplication5 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.homeapplication5 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.homeapplication6 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.homeapplication6 a{
+    position: relative;
+    top: -13px;
+    left: -10px;
+
+}
+
+/* //////////////// */
+
+.kidproduct{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: -60px;
+     
+}
+.kidproduct1 h3{
+    font-family: fantasy;
+    color: black;
+    position: relative;
+    left: 60px;
+    
+}
+.kidproduct1 a{
+    position: relative;
+    left: 60px;
+}
+.kidproduct2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    
+}
+.kid1{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.kid2{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.kid3{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.kid4{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.kid5{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.kid6{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.kid1 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.kid2 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.kid3 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.kid4 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.kid5 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.kid6 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.kid1 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.kid1 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.kid2 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.kid2 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.kid3 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.kid3 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.kid4 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.kid4 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.kid5 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.kid5 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.kid6 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.kid6 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+
+/* grocery start here  */
+
+.grocery{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 10px;
+     
+}
+.grocery1 h3{
+    font-family: fantasy;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    
+}
+.grocery1 a{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.grocery2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    
+}
+.gro1{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+
+.gro2{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.gro3{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.gro4{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.gro5{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.gro6{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.gro1 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.gro2 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.gro3 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.gro4 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.gro5 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.gro6 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.gro1 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.gro1 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.gro2 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.gro2 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.gro3 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.gro3 a{
+    position: relative;
+    top: -13px;
+    left: -10px;
+
+}
+.gro4 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.gro4 a{
+    position: relative;
+    top: -13px;
+    left: -10px;
+
+}
+.gro5 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.gro5 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.gro6 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.gro6 a{
+    position: relative;
+    top: -13px;
+    left: -10px;
+
+}
+/* grocery ends here */
+
+/* medicine start here  */
+
+.medicine{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 10px;
+     
+}
+.medicine1 h3{
+    font-family: fantasy;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    
+}
+.medicine1 a{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.medicine2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    
+}
+.med1{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+
+.med2{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.med3{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.med4{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.med5{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.med6{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.med1 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.med2 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.med3 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.med4 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.med5 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.med6 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.med1 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.med1 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.med2 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.med2 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.med3 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.med3 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+.med4 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.med4 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+.med5 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.med5 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.med6 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.med6 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+/* Medicine ends here */
+
+/* Fashion start here  */
+
+.fashion{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 10px;
+     
+}
+.fashion1 h3{
+    font-family: fantasy;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    
+}
+.fashion1 a{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.fashion2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    
+}
+.fas1{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+
+.fas2{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fas3{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fas4{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fas5{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fas6{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fas1 img{
+    height: 200px;
+    width: 180px;
+    
+}
+.fas2 img{
+    height: 200px;
+    width: 180px;
+    
+}
+.fas3 img{
+    height: 200px;
+    width: 180px;
+    
+}
+.fas4 img{
+    height: 200px;
+    width: 180px;
+    
+}
+.fas5 img{
+    height: 200px;
+    width: 180px;
+    
+}
+.fas6 img{
+    height: 200px;
+    width: 180px;
+    
+}
+.fas1 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fas1 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.fas2 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fas2 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.fas3 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fas3 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+.fas4 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fas4 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+.fas5 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fas5 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.fas6 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fas6 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+/* Fashion ends here */
+
+
+/* Footwear start here  */
+
+.footwear{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 10px;
+     
+}
+.footwear1 h3{
+    font-family: fantasy;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    
+}
+.footwear1 a{
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.footwear2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    
+}
+.fot1{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+
+.fot2{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fot3{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fot4{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fot5{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fot6{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    top: 20px;
+}
+.fot1 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.fot2 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.fot3 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.fot4 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.fot5 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.fot6 img{
+    height: 180px;
+    width: 200px;
+    
+}
+.fot1 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fot1 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.fot2 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fot2 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.fot3 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fot3 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+.fot4 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fot4 a{
+    position: relative;
+    top: -13px;
+    left: -10px;
+
+}
+.fot5 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.fot5 a{
+    position: relative;
+    top: 10px;
+    left: -10px;
+
+}
+.fot6 h5{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    position: relative;
+    top: 5px;
+}
+.vmed6 a{
+    position: relative;
+    top: 13px;
+    left: -10px;
+
+}
+/* Footwear ends here */
+
+/* last body  */
+
+.tabs{
+    background-color: #232F3E;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+.tabs p{
+    display:block;
+    height: 12px;
+    position: relative;
+    /* top: 10px; */
+}
+
+.tab1{
+    width: 290px;
+    height: 90%;
+    background-color: #232F3E;
+}
+.tab1 a{
+    text-decoration: none;
+    color: azure;
+    font-size: 14px;
+}
+.topbot{
+    display: flex;
+    height:40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(66, 66, 66, 0.445);
+    padding: 15px;
+}
+.topbot:hover{
+    background-color: rgba(78, 78, 78, 0.538);
+}
+.topbot a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1
+{
+    position: relative;
+    top: 210px;
+    left: -200px;
+    height: 370px;
+    width: 125%;
+    display: block;
+    background-color: #232F3E;
+}
+.footer1 h1{
+    font-size:28px;
+}
+.tabs h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* last body ends here */
